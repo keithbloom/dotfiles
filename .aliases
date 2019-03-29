@@ -1,5 +1,5 @@
 alias wifi-up="sudo ip link set wlp58s0 up"
 alias wifi-restart="sudo rfkill unblock wifi; sudo rfkill unblock all"
 
-alias monitor-remove="xrandr --output DP-1 --auto; xrandr --output eDP-1 --left-of DP-1"
+alias monitor-add="xrandr --output DP-1 --auto; xrandr --output eDP-1 --left-of DP-1"
 alias monitor-remove="xrandr --output DP-1 --off"
