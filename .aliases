@@ -3,3 +3,6 @@ alias wifi-restart="sudo rfkill unblock wifi; sudo rfkill unblock all"
 
 alias monitor-add="xrandr --output DP-1 --auto; xrandr --output eDP-1 --left-of DP-1"
 alias monitor-remove="xrandr --output DP-1 --off"
+
+alias set-keyboard-us="setxkbmap us"
+alias set-keyboard-uk="setxkbmap uk"

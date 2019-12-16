@@ -1,0 +1,11 @@
+#! /bin/bash
+
+# Larger bash history (allow 32³ entries; default is 500)
+export HISTSIZE=50000000;
+export HISTFILESIZE=$HISTSIZE;
+export HISTCONTROL=ignoredups;
+
+# hidpi for gtk apps
+export GDK_SCALE=0.8
+export GDK_DPI_SCALE=0.8
+export QT_DEVICE_PIXEL_RATIO=2
