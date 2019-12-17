@@ -5,7 +5,7 @@ test: ## Runs the tests for all files
 dotfiles: ## Installs the dotfiles
 	for file in $(shell find $(CURDIR) -name ".*" -name ".*" -not -name ".gitignore" -not -name ".git"); do \
 	       	f=$$(basename $$file); \
-			if [ -d $(HOME)/$$f ]; then $(HOME)/$$f; fi; \
+			## if [ -d $(HOME)/$$f ]; then $(HOME)/$$f; fi; \
        		ln -sfn $$file $(HOME)/$$f; \
 	done
 
